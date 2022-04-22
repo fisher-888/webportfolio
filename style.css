@@ -4,3 +4,34 @@
 *	{
 	font-family: 'Inter', sans-serif;
 }	
+
+@media(min-width: 320px){
+	#map{
+		width: 	200px ;
+		height: 200px;
+	}
+
+}
+
+
+@media(min-width: 768px){
+	#map{
+		width:	300px ;
+		height: 300px;
+	}
+
+}
+
+
+@media(min-width: 992px){
+	#map{
+		width: 	400px ;
+		height: 400px;
+	}
+
+}
+
+#jumbo {
+	background-image: url('https://mdbootstrap.com/img/Photos/Others/architecture.webp');
+	background-repeat: no-repeat; background-size: cover; background-position: center center ; width:100vw ;
+}
